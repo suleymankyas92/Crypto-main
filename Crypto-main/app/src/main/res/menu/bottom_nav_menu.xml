@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/marketFragment"
+        android:icon="@drawable/ic_stats"
+        android:title="@string/stats"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/savedFragment"
+        android:icon="@drawable/ic_collections"
+        android:title="@string/watchlist"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/converterFragment"
+        android:icon="@drawable/ic_converter"
+        android:title="@string/converter"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/contactFragment"
+        android:icon="@drawable/ic_contact"
+        android:title="@string/contact"
+        app:showAsAction="always"/>
+</menu>
